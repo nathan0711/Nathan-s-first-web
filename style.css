@@ -1,0 +1,161 @@
+body{
+background-color: rgb(209, 203, 203);
+text-align: center;
+}
+
+/* Style for the container */
+.container {
+    display: flex; /* Places items in a row */
+    align-items: center; /* Aligns text and image in the middle */
+    justify-content: center; /* Centers everything */
+    gap: 20px; /* Adds space between text and image */
+    margin: 20px; /* Adds spacing around */
+}
+
+/* Style the h2 */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #040f16;
+    max-width: 97%; /* Limits text width */
+    text-align: center;
+}
+
+/* Style the image */
+img {
+    height: 390px;
+    width: 400px;
+    border-radius: 60%; /* Makes image circular */
+    border: 4px solid #606466; /* Adds a nice border */
+    box-shadow: 5px 5px 15px rgb(151, 86, 91); /* Adds a soft shadow */
+    object-fit: cover; /* Ensures the image fits well */
+}
+
+
+
+
+nav {
+    background-color: #be9094; /* Background color */
+    padding: 15px; /* Add padding for better spacing */
+    text-align: center; /* Center align the nav */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Style the unordered list */
+nav ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns links horizontally */
+    justify-content: center; /* Centers the links */
+    gap: 30px; /* Adds space between items */
+}
+
+/* Style the list items */
+nav ul li {
+    display: inline; /* Ensures the items are in a line */
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Makes text white */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; /* Adds padding inside buttons */
+    border-radius: 5px; /* Rounds edges */
+    transition: 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: white; /* Change background on hover */
+    color: #811d2e; /* Change text color on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1{
+    
+    font-family: "Lobster", cursive;
+    font-weight: bold;  /* Makes text bold */
+    text-transform: uppercase; /* Capitalizes all letters */
+    letter-spacing: 2px; /* Adds spacing between letters */
+    color: #130f10; /* Custom color */
+}
+
+
+
+
+nav {
+    background-color: #be9094;
+    padding: 15px;
+    display: flex; /* Makes items in the navbar align horizontally */
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Puts space between logo and links */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the logo */
+.logo {
+    font-family: "Lobster", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px; /* Space from the left */
+}
+
+/* Style for the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+/* Ensure the links and logo look aligned */
+nav ul li {
+    display: inline;
+}
+
+/* Navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+/* Social Media Icons Container */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px; /* Space between icons */
+    padding: 30px;
+    border: 10px solid ;
+    background-color: #e4dee0;
+    margin: 50px;
+}
+
+/* Social Media Icons */
+.social-links img {
+    width: 50px;  /* Smaller icon size */
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Optional: Hover Effect */
+.social-links img:hover {
+    transform: scale(1.1);
+}
+        
+ 
+
+  
